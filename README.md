@@ -10,7 +10,11 @@ shorter paths and hence DFS for solving does efficiently better compared to BFS,
 I shall soon be uploading the solver using other algos as well
 
 
-Also Maze Generator can also be implemented using other algorithms as Randomised DFS (backtracking), Wilson's algo, Kruskal, 
+Also Maze Generator can also be implemented using other algorithms as Randomised DFS (backtracking), Wilson's algo, Kruskal's algorithm which I shall soon be posting as well
+
+### Thank You
+
+
 This code is provided free and open source for educational purposes. The code is optimized for learning and not necessarily for efficiency or compactness. It is solely the work of the author.
 
 
