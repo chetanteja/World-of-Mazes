@@ -1,0 +1,29 @@
+The starting point is represented by a 'S' and end point as 'E'
+
+The walls of the maze are represented as '#' whereas the path through which we could move would be the gaps or spaces--> " "
+
+
+The path thorugh which the Algorithm solves the path is represented through the '+' symbol
+
+
+Each time the code runs gives 2 graphs as Maze in which the first one represents the Maze generated using Prim's Algorithm 
+and the second one represents one of the path through which we can move from Start to the End
+
+Also note that the size of the graph can be varied by just changing the value of N
+
+This Solution or path is generated using the Depth-First-Search Algorithm
+
+
+
+
+    #  #  #  #  #  #  #  #  #  #
+     - - - - - - - - - - - - - -
+    S  +  +  +  +  +  +  +  +  |
+    - - - - - - - - - - - -  + | 
+    #  #  #  #  #  #  #  # | + |
+                         # | + |
+                         
+The Path is represented by the + signs
+The walls by #
+The gaps by spaces
+

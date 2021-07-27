@@ -7,6 +7,8 @@
 I have used Prim's Algo and specifically used DFS for solving it since Prims Algo tends to make
 shorter paths and hence DFS for solving does efficiently better compared to BFS,Dijkistra and A* algos.
 
+Please visit the INFO folder to get a clear idea about the implementation and example outputs
+
 I shall soon be uploading the solver using other algos as well
 
 

@@ -80,8 +80,16 @@ void PrintGraph(){
     */
     for(int i=0;i<N;i++){
         for(int j=0;j<N;j++){
-            if(Maze[i][j]) cout<<" ";
-            else cout<<"#";
+            if(i==2&&j==1){
+                    cout<<" S ";
+                    continue;
+            }
+            if(i==endx&&j==endy){
+                    cout<<" E ";
+                    continue;
+            }
+            if(Maze[i][j]) cout<<"   ";
+            else cout<<" # ";
         }
         cout<<"\n";
     }
@@ -111,7 +119,7 @@ void printSolution(int sol[N][N])
                     continue;
             }
             if(sol[i][j]){
-                printf(" %d ", sol[i][j]);
+                printf(" + ");
                 continue;
             }
             if(Maze[i][j]==0)cout<<" # ";
